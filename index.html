@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>Validate numbers</title>
+</head>
+
+<body>
+    <h1>Validate Numbers</h1>
+    
+    <div class="search-box">
+            <p class="search-box__info"></p>
+        <label class="search-box__input" for="search-box__input">
+            <input type="text" class="search-box__input--field" id="search-box__input" onpaste="return false;">
+            <span class="search-box__input--placeholder">Enter number</span>
+        </label>
+        <div class="search-box__results">
+            <p>Press ESC to reset</p>
+            <div class="search-box__results--unique">
+                <span class="search-box__results--unique-val">1</span>
+                <span class="search-box__results--unique-val">2</span>
+                <span class="search-box__results--unique-val">3</span>
+            </div>
+
+            <div class="search-box__results--duplicate">
+                <span class="search-box__results--duplicate-val">5</span>
+                <span class="search-box__results--duplicate-val">6</span>
+                <span class="search-box__results--duplicate-val">7</span>
+            </div>
+
+        </div>
+    </div>
+    <script src="/public/js/index.js"></script>
+</body>
+
+</html>
